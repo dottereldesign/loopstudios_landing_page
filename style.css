@@ -96,6 +96,13 @@ select {
 }
 
 /* creations */
+.creations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .creations_wrapper {
   display: flex;
   flex-direction: column;
@@ -162,9 +169,10 @@ select {
     grid-template-columns: repeat(4, 1fr);
     flex-direction: column;
     align-items: center;
-    padding: 0 16px 0 16px;
+    padding: 0;
     max-width: 1110px;
     margin: 0 auto;
+    gap: 16px;
   }
 
   .creations h2 {
@@ -183,11 +191,11 @@ select {
   }
 
   .creations_card:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
 
   .creations h3 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
     color: var(--clr-primary-100);
     font-weight: var(--fw-light);
     font-family: var(--ff-primary-100);
