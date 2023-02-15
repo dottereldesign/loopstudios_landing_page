@@ -92,6 +92,40 @@ select {
   font-size: inherit;
 }
 
+/* creations */
+.creations_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px 0 16px;
+}
+
+.creations h2 {
+  font-size: var(--fs-700);
+  color: var(--clr-primary-200);
+  font-weight: var(--fw-light);
+  font-family: var(--ff-primary-100);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.creations_card {
+  position: relative;
+}
+
+.creations h3 {
+  font-size: var(--fs-600);
+  color: var(--clr-primary-100);
+  font-weight: var(--fw-light);
+  font-family: var(--ff-primary-100);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+/* footer */
 footer {
   display: flex;
   flex-direction: column;
