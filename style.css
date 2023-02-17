@@ -95,6 +95,34 @@ select {
   font-size: inherit;
 }
 
+/* header */
+
+/* main */
+
+/* leader */
+.leader {
+  padding: 0 16px 0 16px;
+}
+
+.leader h2 {
+  font-size: var(--fs-800);
+  color: var(--clr-primary-200);
+  font-weight: var(--fw-light);
+  font-family: var(--ff-primary-100);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 32px 0 24px 0;
+  text-align: center;
+}
+
+.leader p {
+  font-size: var(--fs-500);
+  color: var(--clr-primary-200);
+  font-weight: var(--fw-light);
+  font-family: var(--ff-primary-100);
+  text-align: center;
+}
+
 /* creations */
 .creations {
   display: flex;
@@ -111,7 +139,7 @@ select {
 }
 
 .creations h2 {
-  font-size: var(--fs-700);
+  font-size: var(--fs-800);
   color: var(--clr-primary-200);
   font-weight: var(--fw-light);
   font-family: var(--ff-primary-100);
@@ -140,6 +168,7 @@ select {
   bottom: 5%;
   left: 3%;
   line-height: 1.1;
+  display: inline-block;
 }
 
 .creations_CTA {
@@ -176,7 +205,7 @@ select {
   }
 
   .creations h2 {
-    font-size: var(--fs-700);
+    font-size: var(--fs-800);
     color: var(--clr-primary-200);
     font-weight: var(--fw-light);
     font-family: var(--ff-primary-100);
